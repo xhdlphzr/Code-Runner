@@ -12,7 +12,7 @@
 
 ```bash
 git clone https://github.com/xhdlphzr/Code-Runner.git
-.\setup.exe
+.\Windows\setup.exe
 ```
 
 ## 使用

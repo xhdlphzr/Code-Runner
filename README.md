@@ -30,4 +30,4 @@ $ git clone https://github.com/xhdlphzr/Code-Runner.git
 
 # 贡献名单(一月一更新)
 
-1.xhdlphzr
+1. xhdlphzr

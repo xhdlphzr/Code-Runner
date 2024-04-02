@@ -11,10 +11,9 @@
 ## 安装
 
 ```bash
-$ git clone https://github.com/xhdlphzr/Code-Runner.git
+git clone https://github.com/xhdlphzr/Code-Runner.git
+.\setup.exe
 ```
-
-并把当前文件夹加入环境变量(Path)即可使用
 
 ## 使用
 

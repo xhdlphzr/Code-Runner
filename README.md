@@ -21,3 +21,9 @@ $ git clone https://github.com/xhdlphzr/Code-Runner.git
 `run <文件名(不用扩展名)>`编译并运行
 
 `debug <文件名(不用扩展名)>`编译并调试
+
+## 注意事项
+
+默认的编译指令是`g++ ./source/文件 -o ./build/文件 -g -D DEBUG -std=c++14`，所以你的目录下面必须有source(源代码)文件夹和build(编译文件)文件夹，不然会报错
+
+这里使用的标准为c++14，还定义了DEBUG宏哦

@@ -13,14 +13,12 @@ int main (int argc, char *argv[])
     return 0;
   }
   
-  char path[114514] = {};
   char run_code[114514] = {};
   
-  strcpy(path, argv[1]);
-  sprintf(run_code, "g++ .\\source\\%s.cpp -o .\\build\\%s.exe -g -D DEBUG -std=c++14 && gdb .\\build\\%s.exe", path, path, path);
+  sprintf(run_code, "g++ .\\source\\%s.cpp -o .\\build\\%s.exe -g -D DEBUG -std=c++14 && gdb .\\build\\%s.exe", argv[1], argv[1], argv[1]);
   
   // printf("%s", run_code);
-  printf("Debug now!!");
+  printf("%s.cpp Debug now!!!", argv[1]);
 
   system(run_code);
 

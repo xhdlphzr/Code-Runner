@@ -15,10 +15,11 @@ int main (int argc, char *argv[])
   
   char run_code[114514] = {};
   
+  strcpy(path, argv[1]);
   sprintf(run_code, "g++ .\\source\\%s.cpp -o .\\build\\%s.exe -g -D DEBUG -std=c++14 && .\\build\\%s.exe", argv[1], argv[1], argv[1]);
   
   // printf("%s", run_code);
-  printf("%s.cpp Run now!!!", argv[1]);
+  printf("%s.cpp Build now!!!", argv[1]);
 
   system(run_code);
 

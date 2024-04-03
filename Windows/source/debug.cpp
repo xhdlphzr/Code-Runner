@@ -1,26 +1,15 @@
-#include <cstdio>
-#include <string>
-#include <cstring>
+#include "..\\include\\cpp.h"
 
-using namespace std;
-
-int main (int argc, char *argv[]) 
+int main(int argc, char *argv[])
 {
   if (argc != 2)
   {
-    printf("You can't do that!!!");
+    printf("You Can't Do That !");
 
     return 0;
   }
-  
-  char run_code[114514] = {};
-  
-  sprintf(run_code, "g++ .\\source\\%s.cpp -o .\\build\\%s.exe -g -D DEBUG -std=c++14 && gdb .\\build\\%s.exe", argv[1], argv[1], argv[1]);
-  
-  // printf("%s", run_code);
-  printf("%s.cpp Debug now!!!", argv[1]);
 
-  system(run_code);
+  run(argv[1], argv[0]);
 
   return 0;
 }

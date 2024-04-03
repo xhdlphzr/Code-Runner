@@ -12,14 +12,17 @@
 
 ```bash
 git clone https://github.com/xhdlphzr/Code-Runner.git
-.\Windows\setup.exe
 ```
+
+接着把目录下面的Windows文件夹加入环境变量即可开始使用(目前setup.exe不可用)
 
 ## 使用
 
-`run <文件名(不用扩展名)>`编译并运行
+`run <文件名(不加扩展名)>`编译并运行
 
-`debug <文件名(不用扩展名)>`编译并调试
+`debug <文件名(不加扩展名)>`编译并调试
+
+`build <文件名(不加扩展名)>`编译
 
 ## 注意事项
 

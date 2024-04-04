@@ -30,8 +30,6 @@ git clone https://github.com/xhdlphzr/Code-Runner.git
 
 这里使用的标准为c++14，还定义了DEBUG宏哦
 
-且在安装这里使用的是git bash(以管理员身份进行运行)进行安装，请不要用其他终端(也不要用非管理员身份)运行，若出现其他情况，本项目不负任何责任
-
 # 贡献名单(四月April)
 
 1. xhdlphzr

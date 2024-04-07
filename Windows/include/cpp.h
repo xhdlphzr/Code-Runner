@@ -8,7 +8,7 @@ void run(char path[], char mode[])
   char build_code[] = {};
   char run_code[] = {};
 
-  sscanf(build_code, "g++ .\\source\\%s.cpp -o .\\build\\%s.exe -g -D DEBUG -std=c++14", path[1], path[1], path[1]);
+  sscanf(build_code, "g++ .\\source\\%s.cpp -o .\\build\\%s.exe -g -D DEBUG -O2 -std=c++14", path[1], path[1], path[1]);
 
   if (mode == "run")
   {

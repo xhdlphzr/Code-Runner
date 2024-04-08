@@ -13,7 +13,7 @@
 ```bash
 git clone https://github.com/xhdlphzr/Code-Runner.git
 cd ./Windows
-setx -m PATH "<你当前目录的绝对路径>"
+setx -m CODERUNNER "<你当前目录的绝对路径>"
 ```
 
 ## 使用
